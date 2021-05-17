@@ -18,10 +18,10 @@ Add to composer `scripts` section as below and create the `bin` folder.
 ...
     "scripts": {
         "post-install-cmd": [
-          "PHPHelperCollection\\Actions\\ConfigSetup::build"
+          "SGitHooks\\Actions\\ConfigSetup::build"
         ],
         "post-update-cmd": [
-          "PHPHelperCollection\\Actions\\ConfigSetup::build"
+          "SGitHooks\\Actions\\ConfigSetup::build"
         ]
     },
       "config": {
